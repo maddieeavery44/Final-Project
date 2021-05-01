@@ -1,16 +1,4 @@
-# Photomap
-A Leaflet map that reads data from Google Sheets.  
+# GEOG 4046 Final Project
 
-Created as an example for [GEOG 4046](https://geog4046.github.io).  
-
-Each row in the sheet will appear as a marker on the map. When the marker is clicked, a popup will appear showing information about the location, taken from the columns of the spreadsheet.  
-
-This script assumes the Google Sheet has the following columns. These match the attribute names used for the [Story Map Tour](https://www.arcgis.com/home/item.html?id=91d75e9b375e4e9b9b3a4004544bfadf) template in ArcGIS Online.  
-
-Column name | Description
-:-----------|--------------------------------------------------------------
-name        | A short name for the location, to appear as the popup title |
-description | A sentence or two describing the location in more detail    |
-lat         | Latitude in decimal degrees                                 |
-long        | Longitude in decimal degrees                                |
-pic_url     | The URL to an image that will be displayed in the popup     |
+## Story Map Tour: Geology 4002 & 3071 Field Trips to the Southwest, U.S. & Arkansas, U.S. 
+A photo map tour showing the locations I made while on two different geological fields trips using GPS coordinates. These geologic locations are shown by markers that the audience can click to display details of the stops I made and a photo. I recorded these coordinates while in the field in my geology field notebook. The website below will display the map along with the geology and topography of the region. My data was taken from March 27 to April 18, 2020.
